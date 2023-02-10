@@ -1,0 +1,75 @@
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 95px;
+    margin: 0 auto;
+    border: 5px solid red;
+}
+header{
+    max-width: inherit;
+    width: inherit; 
+    margin: 0 auto;
+    display: flex;
+    background-color: #9EAEC5;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo_div{
+    width: 196px;
+    height: 100px;
+    background-color: #C0BA8F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 50% 50%;
+}
+h1{
+    color: #F6F5F2;
+    font-size: 36px;
+}
+.logo_div:hover{
+    box-shadow: 0 0 20px 30px #C0BA8F;
+}
+ul{
+    display: flex;
+    color:  #E3F6F6;
+    font-size: 24px;
+    gap: 47px;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: brown;
+    box-shadow: 0 0 30px 5px brown;
+}
+.home{
+    color: brown;
+    border-bottom: 3px solid brown;
+}
+.fa-solid.fa-cart-shopping{
+   font-size: 36px;
+   color:  #EDF0F5;
+}
+section{
+    width: 100%;
+    margin: 0 auto;
+    border: 5px solid blue;
+    height: 678px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/Rectangle\ 1\ \(2\).svg);
+}
+h2{
+    color: white;
+    font-size: 96px;
+    font-family: 'Rubik', sans-serif;
+}
