@@ -1,53 +1,119 @@
-@media (max-width:768px){
-    .container{
+@media (max-width:768px) {
+    .container {
         max-width: 768px;
     }
-    header{
+
+    header {
         padding: 0 0 0 0;
     }
-    .logo_div{
-        width: 140px;
+
+    .logo_div {
+        width: 150px;
     }
-    h1{
+
+    h1 {
         font-size: 1.5rem;
     }
-    ul{
+
+    ul {
         font-size: 1.25rem;
         gap: 29px;
     }
-    section{
+
+    section {
         height: 450px;
-        width: 100%;  
+        width: 100%;
     }
-    h2{
+
+    h2 {
         font-size: 3rem;
         border: #C0BA8F 7px solid;
     }
+
     @keyframes h2 {
-        0%{
+        0% {
             opacity: 0;
             transform: translatex(-700px);
             border: 7px solid white;
         }
-        100%{
+
+        100% {
             opacity: 1;
             border: 7px solid brown;
         }
     }
-    footer{
+
+    footer {
         justify-content: space-between;
+        height: 150px;
         padding-left: 21px;
         padding-right: 21px;
     }
-    .text1{
+
+    .text1 {
         display: none;
     }
-    .kits_div{
+
+    .kits_div {
         gap: 21px;
     }
 }
-@media (max-width:627px){
-    h2{
+
+@media (max-width:627px) {
+    h2 {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .section_div {
+        width: 90%;
+        height: 182px;
+    }
+
+    .h1 {
+        font-size: 1.25rem;
+        padding: 14px 0 17px 0;
+    }
+
+    .text2{
+        width: 95%;
+        font-size: 1rem;
+    }
+
+    article {
+        height: 900px;
+    }
+
+    .h2 {
+        padding: 46px 0 96px 0;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 64px;
+        height: 668px;
+    }
+
+    .card {
+        width: 100%;
+        height: 299px;
+        padding-top: 18px;
+    }
+
+    .card_div {
+        width: 100%;
+        height: 210px;
+    }
+
+    .h3 {
+        font-size: 1.5rem;
+        padding-top: 27px;
+    }
+
+    .card1 {
         display: none;
     }
 }
