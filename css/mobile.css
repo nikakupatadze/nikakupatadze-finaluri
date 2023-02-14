@@ -1,0 +1,56 @@
+@media (max-width:431px){
+    .container{
+        max-width: 431px;
+        padding-top: 60px;
+    }
+    header{
+        height: 60px;
+    }
+    .logo_div{
+        width: 120px;
+        height: 60px;
+    }
+    h1{
+        font-size: 1.25rem;
+    }
+    ul{
+        display: none;
+    }
+    .fa-cart-shopping{
+        display: none;
+    }
+    .fa-burger{
+        display: flex;
+        color: white;
+        font-size: 3rem;
+    }
+    section{
+        height: 290px;
+    }
+    h2{
+        font-size: 1.5rem;
+        display: flex;
+        border: #C0BA8F 3px solid;
+    }
+    @keyframes h2 {
+        0%{
+            opacity: 0;
+            transform: translatex(-700px);
+            border: 3px solid white;
+        }
+        100%{
+            opacity: 1;
+            border: 3px solid brown;
+        }
+    }
+    footer{
+        height: 100px;
+        justify-content: center;
+    }
+    h3{
+        display: none;
+    }
+    .kits_div{
+        gap: 55px;
+    }
+}
