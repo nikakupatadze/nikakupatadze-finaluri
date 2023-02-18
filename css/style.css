@@ -1,5 +1,5 @@
 /* pading top da botomi dauwere headers da footers */
-.container1{
+.container{
     max-width: 1440px;
     width: 100%;
     padding-top: 95px;
@@ -24,7 +24,6 @@ font-family: 'Rubik', sans-serif;
     transform: translateX(-50%);
 }
 .logo_div{
-    transition: transform 0.3s ;
     width: 196px;
     height: 100px;
     background-color: #C0BA8F;
@@ -32,6 +31,7 @@ font-family: 'Rubik', sans-serif;
     justify-content: center;
     align-items: center;
     border-radius: 0 0 50% 50%;
+    transition: 0.8s;
 }
 h1{
     color: #F6F5F2;
@@ -49,14 +49,17 @@ ul{
 }
 li{
     cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: transform 0.3s;
 }
 li:hover{
     color: brown;
     box-shadow: 0 0 30px 5px brown;
+    border-bottom: 3px solid #C0BA8F;
+    transform: translateY(-5px);
 }
 .home{
     color: brown;
-    border-bottom: 3px solid brown;
 }
 .Artworks{
     color:  #E3F6F6;
@@ -67,6 +70,7 @@ li:hover{
 .fa-solid.fa-cart-shopping{
    font-size: 2.25rem;
    color:  #EDF0F5;
+   cursor: pointer;
 }
 .fa-burger{
     display: none;
@@ -87,8 +91,16 @@ h2{
     border: #C0BA8F 10px solid;
     color: white;
     font-size: 6rem;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Explora', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif;
     animation: h2 4s 1 ;
+    transition: 0.8s;
+}
+
+h2:hover{
+  box-shadow: 0 0 30px 10px #C0BA8F;
 }
 @keyframes h2 {
     0%{
@@ -112,9 +124,16 @@ footer{
     gap: 47px;
 }    
 h3{
-    font-size: 36px;
-    font-family: 'Rubik', sans-serif;
+    font-size: 2.25rem;
+    font-family: 'Explora', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rubik', sans-serif; 
     color: #F6F5F2;
+}
+h3:hover{
+    color: gold;
+    box-shadow: 0 0 40px 15px brown;
+    background-color: brown;
 }
 .text1{
     font-size: 1.5rem;
@@ -128,8 +147,8 @@ transition: transform 0.3s ;
 }
 .fa-brands.fa-facebook-messenger:hover{
     transform: translateY(-5px);
-    box-shadow: 0 0 20px 5px ;
-    
+    box-shadow: 0 0 20px 5px brown;
+    background-color: brown;
 }
 .fa-brands.fa-instagram{
     font-size: 2.25rem;
@@ -138,7 +157,8 @@ transition: transform 0.3s ;
 }
 .fa-brands.fa-instagram:hover{
     transform: translateY(-5px);
-    box-shadow: 0 0 20px 5px ;
+    box-shadow: 0 0 20px 5px brown;
+    background-color: brown;
 }
 .fa-brands.fa-youtube{
     font-size: 2.25rem;
@@ -147,19 +167,26 @@ transition: transform 0.3s ;
 }
 .fa-brands.fa-youtube:hover{
     transform: translateY(-5px);
-    box-shadow: 0 0 20px 5px ;
+    box-shadow: 0 0 20px 5px brown;
+    background-color: brown;
 }
 .kits_div{
     display: flex;
     gap: 47px;
 }
 @media (max-width:1110px){
+    .container{
+        max-width: 1110px;
+    }
     h2{
         font-size: 4rem;
         border: #C0BA8F 8px solid;
     }
 }
 @media (max-width:950px){
+    .container{
+        max-width: 950px;
+    }
     header{
         padding-left: 20px;
         padding-right: 20px;

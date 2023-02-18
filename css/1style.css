@@ -1,4 +1,4 @@
-.container {
+.container1 {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -78,19 +78,33 @@ article {
     width: 30%;
     height: 455px;
     background-color: white;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0 0 30px 5px black;
 }
 
 .card_div {
     margin: 0 auto;
     width: 86%;
     height: 297px;
+    overflow: hidden;
+   
+    cursor: pointer;
 }
 
 .img1 {
     width: 100%;
     height: 100%;
+    transition: 0.5s ease-in-out;
+    
 }
-
+.img1:hover{
+ filter: grayscale(70%);
+ /* opacity: 0.7;   */
+transform: scale(1.1);
+}
 .h3 {
     font-family: 'Explora', cursive;
     font-family: 'Inter', sans-serif;
@@ -111,7 +125,6 @@ article {
 
 .Artworks {
     color: brown;
-    border-bottom: 3px solid brown;
 }
 footer{
     width: 100%;
@@ -164,4 +177,31 @@ transition: transform 0.3s ;
 .kits_div{
     display: flex;
     gap: 47px;
+}@media (max-width:1032px){
+    .container1{
+        max-width: 1032px;
+    }
+
+    .text2{
+        font-size: 1rem;
+    }
+
+    .card{
+        height: 40%;
+    }
+    .h3{
+        font-size: 1.5rem;
+        padding-top: 0;
+    }
+}
+
+@media (max-width:855px){
+    .container1{
+        max-width: 854px;
+    }
+
+    .card{
+        height: 35%;
+        padding: 0 0 0 0;
+    }
 }

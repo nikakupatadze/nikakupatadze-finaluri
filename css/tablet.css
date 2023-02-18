@@ -28,6 +28,7 @@
     h2 {
         font-size: 3rem;
         border: #C0BA8F 7px solid;
+
     }
 
     @keyframes h2 {
@@ -60,8 +61,21 @@
 }
 
 @media (max-width:627px) {
+    .container{
+        max-width: 627px;
+        padding-top: 60px;
+    }
+
+    ul{
+        gap: 16px;
+    }
     h2 {
-        display: none;
+        font-size: 2rem;
+    }
+
+    .logo_div{
+        width: 140px;
+        height: 80px;
     }
 }
 
@@ -115,5 +129,30 @@
 
     .card1 {
         display: none;
+    }
+}
+@media (max-width:648px){
+
+    .container1{
+        max-width: 647px;
+    }
+
+    .section_div{
+        height: 249px;
+        padding-top: 10px;
+    }
+
+    .card_div{
+        width: 70%;
+    }
+
+    .h3{
+        font-size: 1.15rem;
+    }
+}
+@media (max-width:627px){
+    .container1{
+        max-width: 627px;
+        padding-top: 80px;
     }
 }
