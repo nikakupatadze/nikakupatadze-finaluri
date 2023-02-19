@@ -59,6 +59,11 @@
         gap: 21px;
     }
 }
+@media (max-width:859px){
+    .text1{
+         font-size: 1.25rem;
+    }
+}
 
 @media (max-width:627px) {
     .container{

@@ -1,29 +1,31 @@
 /* pading top da botomi dauwere headers da footers */
-.container{
+.container {
     max-width: 1440px;
     width: 100%;
     padding-top: 95px;
     margin: 0 auto;
 }
-header{
+
+header {
     padding: 0 100px 0 100px;
     max-width: 1440px;
-    width: 100%; 
+    width: 100%;
     margin: 0 auto;
     display: flex;
     background-color: #9EAEC5;
     align-items: center;
     justify-content: space-between;
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Rubik', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rubik', sans-serif;
     position: fixed;
     top: 0;
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
 }
-.logo_div{
+
+.logo_div {
     width: 196px;
     height: 100px;
     background-color: #C0BA8F;
@@ -33,49 +35,60 @@ font-family: 'Rubik', sans-serif;
     border-radius: 0 0 50% 50%;
     transition: 0.8s;
 }
-h1{
+
+h1 {
     color: #F6F5F2;
     font-size: 2.25rem;
-    
+
 }
-.logo_div:hover{
+
+.logo_div:hover {
     box-shadow: 0 0 20px 30px #C0BA8F;
 }
-ul{
+
+ul {
     display: flex;
-    color:  #E3F6F6;
+    color: #E3F6F6;
     font-size: 1.5rem;
     gap: 47px;
 }
-li{
+
+li {
     cursor: pointer;
     border-bottom: 3px solid transparent;
     transition: transform 0.3s;
 }
-li:hover{
+
+li:hover {
     color: brown;
     box-shadow: 0 0 30px 5px brown;
     border-bottom: 3px solid #C0BA8F;
     transform: translateY(-5px);
 }
-.home{
+
+.home {
     color: brown;
 }
-.Artworks{
-    color:  #E3F6F6;
+
+.Artworks {
+    color: #E3F6F6;
 }
-.contact{
-    color:  #E3F6F6;
+
+.contact {
+    color: #E3F6F6;
 }
-.fa-solid.fa-cart-shopping{
-   font-size: 2.25rem;
-   color:  #EDF0F5;
-   cursor: pointer;
+
+.fa-solid.fa-cart-shopping {
+    font-size: 2.25rem;
+    color: #EDF0F5;
+    cursor: pointer;
 }
-.fa-burger{
+
+.fa-burger {
     display: none;
 }
-section{
+
+section {
     width: 100%;
     margin: 0 auto;
     height: 678px;
@@ -87,33 +100,37 @@ section{
     background-size: cover;
     background-position: center;
 }
-h2{
+
+h2 {
     border: #C0BA8F 10px solid;
     color: white;
     font-size: 6rem;
     /* font-family: 'Rubik', sans-serif; */
     font-family: 'Explora', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Rubik', sans-serif;
-    animation: h2 4s 1 ;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    animation: h2 4s 1;
     transition: 0.8s;
 }
 
-h2:hover{
-  box-shadow: 0 0 30px 10px #C0BA8F;
+h2:hover {
+    box-shadow: 0 0 30px 10px #C0BA8F;
 }
+
 @keyframes h2 {
-    0%{
+    0% {
         opacity: 0;
         transform: translatex(-700px);
         border: 10px solid white;
     }
-    100%{
+
+    100% {
         opacity: 1;
         border: 10px solid brown;
     }
 }
-footer{
+
+footer {
     width: 100%;
     height: 190px;
     margin: 0 auto;
@@ -122,72 +139,86 @@ footer{
     justify-content: space-around;
     align-items: center;
     gap: 47px;
-}    
-h3{
+}
+
+h3 {
     font-size: 2.25rem;
     font-family: 'Explora', cursive;
     font-family: 'Inter', sans-serif;
-    font-family: 'Rubik', sans-serif; 
+    font-family: 'Rubik', sans-serif;
     color: #F6F5F2;
 }
-h3:hover{
+
+h3:hover {
     color: gold;
     box-shadow: 0 0 40px 15px brown;
     background-color: brown;
 }
-.text1{
+
+.text1 {
     font-size: 1.5rem;
     color: #DDDBCB;
     opacity: .7;
 }
-.fa-brands.fa-facebook-messenger{
-font-size: 2.25rem;
-color: #E3F6F6;
-transition: transform 0.3s ;
-}
-.fa-brands.fa-facebook-messenger:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 0 20px 5px brown;
-    background-color: brown;
-}
-.fa-brands.fa-instagram{
+
+.fa-brands.fa-facebook-messenger {
     font-size: 2.25rem;
     color: #E3F6F6;
-    transition: transform 0.3s ;
+    transition: transform 0.3s;
 }
-.fa-brands.fa-instagram:hover{
+
+.fa-brands.fa-facebook-messenger:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 20px 5px brown;
     background-color: brown;
 }
-.fa-brands.fa-youtube{
+
+.fa-brands.fa-instagram {
     font-size: 2.25rem;
     color: #E3F6F6;
-    transition: transform 0.3s ;
+    transition: transform 0.3s;
 }
-.fa-brands.fa-youtube:hover{
+
+.fa-brands.fa-instagram:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 20px 5px brown;
     background-color: brown;
 }
-.kits_div{
+
+.fa-brands.fa-youtube {
+    font-size: 2.25rem;
+    color: #E3F6F6;
+    transition: transform 0.3s;
+}
+
+.fa-brands.fa-youtube:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px 5px brown;
+    background-color: brown;
+}
+
+.kits_div {
     display: flex;
     gap: 47px;
 }
-@media (max-width:1110px){
-    .container{
+
+@media (max-width:1110px) {
+    .container {
         max-width: 1110px;
     }
-    h2{
+
+    h2 {
         font-size: 4rem;
         border: #C0BA8F 8px solid;
     }
 }
-@media (max-width:950px){
-    .container{
+
+@media (max-width:950px) {
+    .container {
         max-width: 950px;
     }
-    header{
+
+    header {
         padding-left: 20px;
         padding-right: 20px;
     }
