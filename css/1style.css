@@ -12,6 +12,13 @@
     display: flex;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
+    animation: card 3s 1;
+}
+
+@keyframes card {
+    0%{
+        transform: translateY(-700px);
+    }
 }
 
 .h1 {
@@ -84,8 +91,8 @@ article {
     width: 86%;
     height: 297px;
     overflow: hidden;
-   
     cursor: pointer;
+    
 }
 
 .img1 {

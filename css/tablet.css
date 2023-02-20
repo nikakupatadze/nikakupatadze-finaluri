@@ -161,3 +161,86 @@
         padding-top: 80px;
     }
 }
+@media (max-width:768px){
+    .container2{
+        max-width: 768px;
+        max-height: 700px;
+    }
+    main{
+        height: 450px;
+    }
+    .main1{
+        max-width: 720px;
+        height: 370px;
+        padding: 28px 20px  20px;
+        
+    }
+    .information1{
+        gap: 32px;
+    }
+    .information2{
+        gap: 32px;
+    }
+    .information3{
+        gap: 32px;
+    }
+    .fa-phone{
+        font-size: 2rem;
+    }
+    .fa-envelope{
+        font-size: 2rem;
+    }
+    .fa-location-dot{
+        font-size: 2rem;
+    }
+    .info{
+        gap: 0;
+    }
+
+    .input1{
+        width: 145px;
+    }
+    textarea{
+        height: 103px;
+    }
+    .your_info{
+        margin-bottom: 23px;
+    }
+    .label2{
+        top: 40%;
+        right: 40%;
+    }
+    textarea{
+        padding: 9px 9px 9px 9px;
+    }
+    .button{
+        margin-top: 28px;
+    }
+    button{
+        width: 202px;
+        height: 65px;
+    }
+}
+@media (max-width:712px){
+    .input1{
+        width: 80%;
+    }
+    .label1{
+        font-size: 0.80rem;
+    }
+    h4{
+        font-size: 1.25rem;
+    }
+    .text3{
+        font-size: 0.80rem;
+    }
+    .button{
+        width: 160px;
+        font-size: 1.75rem;
+    }
+}
+@media (max-width:470px){
+    .text3{
+        font-size: 0.70rem;
+    }
+}
