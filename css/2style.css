@@ -25,6 +25,13 @@ main {
     font-family: 'Inter', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
+    animation: main 2.5s 1;
+}
+
+@keyframes main {
+    0%{
+        transform: translateY(-700px);
+    }
 }
 
 .main1 {
