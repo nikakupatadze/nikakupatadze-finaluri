@@ -249,3 +249,8 @@ button:hover {
         font-size: 1rem;
     }
 }
+@media (max-width:820px){
+    .label1{
+        font-size: 1rem;
+    }
+}

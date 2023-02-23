@@ -17,7 +17,21 @@
     }
 
     ul {
-        display: none;
+        position: fixed;
+        top: 60px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+        right: -60%;
+        align-items: center;
+        width: 45%;
+        height: 290px;
+        background: linear-gradient(#9EAEC5,#C0BA8F);
+        transition: 0.7s;
+    }
+
+    .show{
+        right: 0;
     }
 
     .fa-cart-shopping {
