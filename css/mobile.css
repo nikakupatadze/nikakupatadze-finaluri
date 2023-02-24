@@ -1,3 +1,4 @@
+/* /////////////ინდეხ.ჰტმლ/////////// */
 @media (max-width:431px) {
     .container {
         max-width: 430px;
@@ -79,8 +80,9 @@
     .kits_div {
         gap: 55px;
     }
-}
 
+}
+/* ///////////////არტვორქს.ჰტმლ///////////////// */
 @media (max-width:431px) {
     .container1 {
         padding-top: 60px;
@@ -117,7 +119,7 @@
         display: none;
     }
 }
-
+/* ///////////////ცონტაქტ.ჰტმლ///////////////// */
 @media (max-width:431px) {
     .container2 {
         max-width: 430px;

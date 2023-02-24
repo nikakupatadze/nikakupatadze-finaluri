@@ -1,11 +1,11 @@
-/* pading top da botomi dauwere headers da footers */
+
 .container {
     max-width: 1440px;
     width: 100%;
     padding-top: 95px;
     margin: 0 auto;
 }
-
+/* ////////////////////ჰედერი/////////////// */
 header {
     padding: 0 100px 0 100px;
     max-width: 1440px;
@@ -87,7 +87,7 @@ li:hover {
 .fa-burger {
     display: none;
 }
-
+/* /////////////////////////////სექშენი//////////////////// */
 section {
     width: 100%;
     margin: 0 auto;
@@ -129,7 +129,7 @@ h2:hover {
         border: 10px solid brown;
     }
 }
-
+/* //////////////////ფუტერი//////////////// */
 footer {
     max-width: 1440px;
     width: 100%;

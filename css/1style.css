@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding-top: 95px;
 }
-
+/* ////////////////////სექშენი//////////// */
 .section_div {
     width: 70%;
     height: 276px;
@@ -47,7 +47,7 @@
     font-size: 1.25rem;
     color: white;
 }
-
+/* //////////////////////არტიკლი/////////// */
 article {
     width: 100%;
     height: 1328px;
@@ -133,11 +133,6 @@ article {
 
 .Artworks {
     color: brown;
-}
-
-.kits_div {
-    display: flex;
-    gap: 47px;
 }
 
 @media (max-width:1032px) {
